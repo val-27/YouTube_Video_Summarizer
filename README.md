@@ -1,9 +1,9 @@
-###Summarize a Youtube video via llama3 running on my mac
+### Summarize a Youtube video via llama3 running on my mac
 
-####Details
+#### Details
 I ran it using python3.8, haven't tested any other versions. Requires llama3 to be running locally on your machine.
 
-####Installation
+#### Installation
 ```
 pip install -r requirements.txt
 ```
@@ -14,7 +14,7 @@ Make sure you have llama running locally on your machine. Instructions:
 ollama pull llama3
 ```
 
-####Usage
+#### Usage
 ```
 usage: yt_summary.py [-h] -v VIDEO [-d DIRECTORY] [-n NAME_OF_FILE]
 
